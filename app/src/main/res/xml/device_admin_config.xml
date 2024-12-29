@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+        <uses-policy android:name="android.app.admin.disabled" />
+        <uses-policy android:name="android.app.admin.reset_password" />
+        <uses-policy android:name="android.app.admin.force_lock" />
+        <uses-policy android:name="android.app.admin.expire_password" />
+</device-admin>

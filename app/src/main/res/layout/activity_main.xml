@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to activate Device Admin -->
+    <Button
+        android:id="@+id/btnActivateAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activate Device Admin"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to deactivate Device Admin -->
+    <Button
+        android:id="@+id/btnDeactivateAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deactivate Device Admin"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to pin the app -->
+    <Button
+        android:id="@+id/btnPinApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pin App"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to unpin the app -->
+    <Button
+        android:id="@+id/btnUnpinApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unpin App"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to force lock the device -->
+    <Button
+        android:id="@+id/btnForceLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Force Lock Device"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to wipe device data -->
+    <Button
+        android:id="@+id/btnWipeData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wipe Device Data"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
